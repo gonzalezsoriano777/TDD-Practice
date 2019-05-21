@@ -9,6 +9,7 @@ namespace TDDTest
         [TestMethod]
         public void BusinessTestMethod()
         {
+
         }
     }
 }
