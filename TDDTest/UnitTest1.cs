@@ -18,9 +18,12 @@ namespace TDDTest
     {
         public static int ParseNumeral(string roman)
         {
-            
 
-            return 0;
+            if (roman == "V")
+                return 5;
+
+            return 1;
+            
         }
     }
 }
