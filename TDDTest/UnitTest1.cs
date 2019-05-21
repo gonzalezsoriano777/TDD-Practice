@@ -10,6 +10,8 @@ namespace TDDTest
         public void Parse()
         {
             Assert.AreEqual(1, Roman.ParseNumeral("I"));
+            Assert.AreEqual(5, Roman.ParseNumeral("V"));
+            Assert.AreEqual(10, Roman.ParseNumeral("X"));
         }
     }
 
@@ -22,6 +24,10 @@ namespace TDDTest
             if (roman == "V")
                 return 5;
 
+            if (roman == "X")
+                return 10;
+
+            // represented as the first roman numeral
             return 1;
             
         }
