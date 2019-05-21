@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace TDD_Practice
 {
-    class Program
+    class TDD
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello, world!!");
+            
         }
     }
 }
