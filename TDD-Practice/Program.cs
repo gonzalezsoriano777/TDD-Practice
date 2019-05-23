@@ -10,7 +10,7 @@ namespace TDD_Practice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Working on it..");
+            Console.WriteLine("Working on it...");
         }
     }
 }
